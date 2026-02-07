@@ -207,7 +207,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>DevOps Learning Session - February 2025</p>
+        <p>JJ - DevOps Learning Session - February 2025</p>
         <p>
           <small>API URL: {API_URL}</small>
         </p>
