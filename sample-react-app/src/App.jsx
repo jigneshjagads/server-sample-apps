@@ -97,7 +97,7 @@ function App() {
     <div className="app">
       <header className="header">
         <h1>DevOps Learning Dashboard</h1>
-        <p className="subtitle">Sample React Application</p>
+        <p className="subtitle">JJ - Sample React Application</p>
       </header>
 
       <main className="main">
