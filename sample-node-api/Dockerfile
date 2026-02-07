@@ -19,7 +19,7 @@ ENV PORT=3000
 ENV MONGO_URL='mongodb://root:CIqrnarFGsRbIZ5k@64.23.236.148:27017/?directConnection=true&serverSelectionTimeoutMS=2000&authSource=admin'
 
 # caching redis
-ENV REDIS_URL='http://64.23.236.148:6379/'
+# ENV REDIS_URL='http://64.23.236.148:6379/'
 ENV REDIS_HOST='64.23.236.148'
 ENV REDIS_PORT='6379'
 ENV REDIS_USERNAME='default'
@@ -39,7 +39,7 @@ ENV MSMQ_QUEUE="task_queue"
 COPY . .
 
 # Copy the rest of the application code to the working directory
-RUN npm run build
+# RUN npm run build
 
 # Expose the application port
 EXPOSE 3000
